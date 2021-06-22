@@ -1,0 +1,24 @@
+{
+  "name": "tschernyshdailybot",
+  "version": "1.0.0",
+  "description": "daily reminder telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tschernysh/telegram-daily-bot.git"
+  },
+  "author": "tschernysh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tschernysh/telegram-daily-bot/issues"
+  },
+  "homepage": "https://github.com/tschernysh/telegram-daily-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.53.0",
+    "nodemon": "^2.0.7"
+  }
+}
